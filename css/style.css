@@ -1,3 +1,11 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
 header {
   background-color: #2c3e50;
   color: #fff;
@@ -41,6 +49,10 @@ header .nav li a {
   text-decoration: none;
 }
 
+header .nav a:hover {
+  color: #1abc9c;
+}
+
 /* regola clearfix */
 
 .clearfix::after {
@@ -80,7 +92,6 @@ header .icon .fa-bars {
   color: #fff;
   padding: 40px 0;
   text-transform: uppercase;
-  text-align: center;
 }
 
 .ms_secondary_area {
@@ -89,6 +100,7 @@ header .icon .fa-bars {
 }
 
 .ms_intro {
+  font-size: 20px;
   text-align: center;
 }
 /* fine classi per area */
@@ -106,7 +118,11 @@ header .icon .fa-bars {
   width: 100%;
   border-radius: 13px;
 }
-/*
-.portfolio .item {
-  height: 300px;
-} */
+
+.about {
+  background-color: #1abc9c;
+}
+.about .fa-star {margin-bottom: 50px}
+.about .container-fluid {
+  max-width: 600px;
+}
