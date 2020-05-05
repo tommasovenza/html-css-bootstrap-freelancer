@@ -62,19 +62,26 @@ header .nav a:hover {
 }
 
 /* icon */
-/* codice non funzionante */
-header .icon .fa-bars {
+
+.icon .fa-bars {
+  border: 1px solid white;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background-color: #1abc9c;
+}
+
+header .fa-bars {
   display: none;
   color: #fff;
   position: absolute;
-  top: 27px;
+  top: 20px;
   right: 20px;
 }
 
-/* media queries */
-/* codice non funzionante */
-@media screen and (max-width 768px) {
-  header .icon .fa.bars {
+/* media queries hamburger menu */
+
+@media all and (max-width: 768px) {
+  header .icon .fa-bars {
     display: block;
   }
 
@@ -122,7 +129,23 @@ header .icon .fa-bars {
 .about {
   background-color: #1abc9c;
 }
-.about .fa-star {margin-bottom: 50px}
+.about .fa-star {margin-bottom: 30px}
 .about .container-fluid {
   max-width: 600px;
+}
+
+.about .ms_intro a {
+  color: #fff;
+  padding: 7px 15px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.about .ms_intro a:hover {
+  background-color: #fff;
+  color: #1abc9c;
 }
