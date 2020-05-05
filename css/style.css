@@ -93,6 +93,12 @@ header .fa-bars {
 /* fine header */
 
 /* inizio main */
+
+.wrapper_70 {
+  width: 65%;
+  margin: 0 auto;
+}
+
 /* classi per area */
 .ms_primary_area {
   background-color: #1abc9c;
@@ -126,12 +132,13 @@ header .fa-bars {
   border-radius: 13px;
 }
 
+/* sezione about */
 .about {
   background-color: #1abc9c;
 }
 .about .fa-star {margin-bottom: 30px}
 .about .container-fluid {
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .about .ms_intro a {
@@ -148,4 +155,19 @@ header .fa-bars {
 .about .ms_intro a:hover {
   background-color: #fff;
   color: #1abc9c;
+}
+
+.contact a {
+  color: #fff;
+  background-color: #1abc9c;
+  padding: 7px 12px;
+  border-radius: 6px;
+  text-transform: capitalize;
+}
+
+
+@media all and (max-width: 767px) {
+  .about .container-fluid {
+    max-width: 300px;
+  }
 }
