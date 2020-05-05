@@ -138,7 +138,7 @@ header .fa-bars {
 }
 .about .fa-star {margin-bottom: 30px}
 .about .container-fluid {
-  max-width: 500px;
+  max-width: 65%;
 }
 
 .about .ms_intro a {
@@ -165,9 +165,85 @@ header .fa-bars {
   text-transform: capitalize;
 }
 
+.contact .ms_contact_form {
+  width: 70%;
+  margin: 0 auto;
+}
 
 @media all and (max-width: 767px) {
   .about .container-fluid {
     max-width: 300px;
   }
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 40px 0;
+}
+
+footer h3 {
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+footer ul li:first-child {
+  padding: 8px 16px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  font-size: 21px;
+}
+
+/* tutti gli elementi tranne il primo */
+footer ul li:nth-child(n+2) {
+  padding: 5px 11px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer ul li:hover a {
+  color: #1abc9c;
+}
+
+footer ul li:hover {
+  border-color: #1abc9c;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+footer span {
+  color: #1abc9c;
+}
+
+.colophone {
+  background-color: #1a252f;
+  width: 100%;
+  height: 90px;
+  color: #fff;
+  text-align: center;
+  padding: 35px;
 }
