@@ -80,7 +80,7 @@ header .fa-bars {
 
 /* media queries hamburger menu */
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   header .icon .fa-bars {
     display: block;
   }
